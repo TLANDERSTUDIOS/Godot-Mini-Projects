@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Godot Mini Projects"
-config/features=PackedStringArray("4.1", "Forward Plus")
+config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://Physics/icon.svg"
 
 [dotnet]
@@ -21,3 +21,4 @@ project/assembly_name="Balloon Popper"
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)
